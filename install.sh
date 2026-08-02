@@ -18,4 +18,9 @@ echo "Syncing home directory"
 echo "Copied files to ~/"
 
 echo
+echo "Running postinstall scripts"
+"$REPO/scripts/postinstall.sh"
+echo "Postinstall completed"
+
+echo
 echo " Setup complete. Please reboot device."
