@@ -15,6 +15,6 @@ for file in "$REPO"/packages/*.txt; do
     done < "$file"
 
     if [ ${#packages[@]} -gt 0 ]; then
-        sudo pacman -S --needed "${packages[@]}"
+        sudo pacman -S --needed --noconfirm "${packages[@]}"
     fi
 done
