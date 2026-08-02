@@ -6,7 +6,6 @@ RightButton;NoModifier=org.kde.contextmenu
 RightButton;NoModifier=org.kde.contextmenu
 
 [Containments][23]
-ItemGeometries-1920x1080=
 ItemGeometriesHorizontal=
 activityId=eca8e834-38f7-4f39-9d9e-8a6ecef70993
 formfactor=0
@@ -20,15 +19,7 @@ wallpaperplugin=org.kde.image
 DialogHeight=540
 DialogWidth=720
 
-[Containments][23][General]
-positions={"1920x1080":[]}
-
-[Containments][23][Wallpaper][org.kde.image][General]
-Image=/home/jim/Pictures/pikachu.png
-SlidePaths=/home/jim/.local/share/wallpapers/,/usr/share/wallpapers/
-
 [Containments][24]
-ItemGeometries-1920x1080=
 ItemGeometriesHorizontal=
 activityId=eca8e834-38f7-4f39-9d9e-8a6ecef70993
 formfactor=0
@@ -41,9 +32,6 @@ wallpaperplugin=org.kde.color
 [Containments][24][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
-
-[Containments][24][General]
-positions={"1920x1080":[]}
 
 [Containments][24][Wallpaper][org.kde.color][General]
 Color=28,31,28
@@ -71,9 +59,8 @@ popupWidth=826
 
 [Containments][25][Applets][29][Configuration][Appearance]
 customSpacing=1.7171717171717171
-enabledCalendarPlugins=/usr/lib/qt5/plugins/plasmacalendarplugins/holidaysevents.so,holidaysevents
 fixedFont=true
-fontFamily=SFNS Display
+fontFamily=Iter
 fontSize=15
 
 [Containments][25][Applets][29][Configuration][ConfigDialog]
