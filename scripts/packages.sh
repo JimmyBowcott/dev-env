@@ -5,6 +5,7 @@ REPO="$(cd "$(dirname "$0")/.." && pwd)"
 sudo pacman -Syu --needed
 
 for file in "$REPO"/packages/*.txt; do
+    [[ "$file" == *"aur.txt" ]] && continue
     packages=()
 
     while read -r package; do
