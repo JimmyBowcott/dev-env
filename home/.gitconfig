@@ -1,22 +1,22 @@
 [core]
-  editor = nvim
-  autocrlf = input
-  longpaths = true
+  editor = nvim
+  autocrlf = input
+  longpaths = true
 [user]
-  name = Jimmy Bowcott
+  name = Jimmy Bowcott
 [init]
         defaultBranch = main
 [help]
-  autocorrect = 1
+  autocorrect = 1
 [alias]
-  stash-unapply = !git stash show -p | git apply -R
-  log-pretty = !git log --pretty='format:%h %s'
-  last = !git reflog | grep 'checkout:' | awk -F' to ' '/checkout:/ {print $2}' | sed -n '2,11p' | nl -w2 -s'. '
-  rekt = !git reset --hard HEAD && git clean -fd && git pull
-  undo = !git reset --soft HEAD~1 && git clean -fd && git pull
-  logdir = "!f() { \\\n git ls-files \"$1\" | while read file; do \\\n git log -1 --format=\"%ad (%h) | $file\" --date=short -- \"$file\"; \\\n done | sort -r; \\\n}; f"
+  stash-unapply = !git stash show -p | git apply -R
+  log-pretty = !git log --pretty='format:%h %s'
+  last = !git reflog | grep 'checkout:' | awk -F' to ' '/checkout:/ {print $2}' | sed -n '2,11p' | nl -w2 -s'. '
+  rekt = !git reset --hard HEAD && git clean -fd && git pull
+  undo = !git reset --soft HEAD~1 && git clean -fd && git pull
+  logdir = "!f() { \\\n git ls-files \"$1\" | while read file; do \\\n git log -1 --format=\"%ad (%h) | $file\" --date=short -- \"$file\"; \\\n done | sort -r; \\\n}; f"
 [filter "lfs"]
-  clean = git-lfs clean -- %f
-  smudge = git-lfs smudge -- %f
-  process = git-lfs filter-process
-  required = true
+  clean = git-lfs clean -- %f
+  smudge = git-lfs smudge -- %f
+  process = git-lfs filter-process
+  required = true
