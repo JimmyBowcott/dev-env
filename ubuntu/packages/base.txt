@@ -1,43 +1,31 @@
-base-devel
-linux-firmware
+build-essential
+pkg-config
 
-git
-git-lfs
-
-sudo
 curl
 wget
 rsync
-openssh
+openssh-client
 
 unzip
 zip
 7zip
-tar
-gzip
-bzip2
-
-xz
+xz-utils
 zstd
 which
 file
 less
 
-nano
 vim
-
+neovim
 man-db
-man-pages
-
+manpages
 texinfo
 bash-completion
 
 ffmpeg
 
-networkmanager
-
+network-manager
 bluez
-bluez-utils
 bluedevil
 
 system-config-printer

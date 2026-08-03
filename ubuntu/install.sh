@@ -8,16 +8,6 @@ echo "Installing packages from package lists..."
 echo "Packages installed"
 
 echo
-echo "Installing AUR packages..."
-"$OS_DIR/scripts/aur.sh"
-echo "Packages installed from AUR"
-
-echo
-echo "Installing required drivers"
-"$OS_DIR/scripts/drivers.sh"
-echo "Drivers installed"
-
-echo
 echo "Syncing home directory"
 "$OS_DIR/scripts/dotfiles.sh"
 echo "Copied files to ~/"

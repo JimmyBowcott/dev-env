@@ -1,0 +1,11 @@
+mpv
+
+gimp
+inkscape
+imagemagick
+
+obs-studio
+kdenlive
+audacity
+
+mediainfo

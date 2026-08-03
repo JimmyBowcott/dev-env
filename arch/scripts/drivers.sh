@@ -1,10 +1,5 @@
 #!/usr/bin/env bash
 
-sudo pacman -S --needed --noconfirm \
-    linux-firmware \
-    mesa \
-    vulkan-icd-loader
-
 if grep -q "GenuineIntel" /proc/cpuinfo; then
     sudo pacman -S --needed --noconfirm intel-ucode
 elif grep -q "AuthenticAMD" /proc/cpuinfo; then

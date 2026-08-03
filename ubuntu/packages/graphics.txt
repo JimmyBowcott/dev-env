@@ -1,0 +1,9 @@
+mesa-vulkan-drivers
+libgl1-mesa-dri
+mesa-utils
+
+libvulkan1
+vulkan-tools
+
+libva2
+vainfo

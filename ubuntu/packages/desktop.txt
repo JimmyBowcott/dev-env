@@ -1,0 +1,13 @@
+wl-clipboard
+
+pipewire
+pipewire-pulse
+wireplumber
+
+fonts-noto
+fonts-noto-color-emoji
+fonts-dejavu
+fonts-liberation
+
+gnome-shell-extension-manager
+gnome-tweaks

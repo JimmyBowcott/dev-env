@@ -1,11 +1,13 @@
 #!/usr/bin/env bash
 
+set -e
+
 OS_DIR="$(cd "$(dirname "$0")/.." && pwd)"
 
-sudo pacman -Syu --needed
+sudo apt update
+sudo apt upgrade -y
 
 for file in "$OS_DIR"/packages/*.txt; do
-    [[ "$file" == *"aur.txt" ]] && continue
     packages=()
 
     while read -r package; do
@@ -15,6 +17,6 @@ for file in "$OS_DIR"/packages/*.txt; do
     done < "$file"
 
     if [ "${#packages[@]}" -gt 0 ]; then
-        sudo pacman -S --needed --noconfirm "${packages[@]}"
+        sudo apt install -y "${packages[@]}"
     fi
 done
