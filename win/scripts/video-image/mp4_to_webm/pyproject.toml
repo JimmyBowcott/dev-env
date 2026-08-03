@@ -1,0 +1,16 @@
+[project]
+name = "mp4-to-webm"
+version = "0.1.0"
+description = "Convert MP4 videos to WebM using ffmpeg"
+authors = [{name = "Jimmy"}]
+dependencies = []
+
+[project.scripts]
+mp4-to-webm = "mp4_to_webm.cli:main"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]

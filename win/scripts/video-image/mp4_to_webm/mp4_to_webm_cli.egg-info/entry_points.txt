@@ -1,0 +1,2 @@
+[console_scripts]
+mp4-to-webm = mp4_to_webm.cli:main

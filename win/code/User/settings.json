@@ -1,0 +1,85 @@
+{
+    "atlascode.jira.jqlList": [
+        {
+            "id": "a3c1506e-2775-4191-8bc5-08dda9645193",
+            "enabled": true,
+            "name": "My virtualarts Issues",
+            "query": "assignee = currentUser() AND resolution = Unresolved ORDER BY lastViewed DESC",
+            "siteId": "2fa1c73f-ed7a-42a4-a36d-5a67433a060a",
+            "monitor": true
+        }
+    ],
+    "blender.executables": [
+        {
+            "name": "",
+            "path": "C:\\Program Files\\Blender Foundation\\Blender 4.2\\blender.exe"
+        },
+        {
+            "name": "",
+            "path": "C:\\Program Files\\Blender Foundation\\Blender 4.5\\blender.exe"
+        },
+        {
+            "name": "",
+            "path": "C:\\Program Files\\Blender Foundation\\blender-4.2.0-windows-x64\\blender.exe"
+        },
+        {
+            "name": "",
+            "path": "C:\\Program Files\\Blender Foundation\\Blender 5.0\\blender.exe"
+        }
+    ],
+    "blender.addon.reloadOnSave": true,
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "explorer.confirmDragAndDrop": false,
+    "gitlens.currentLine.format": "${author, }${agoOrDate}",
+    "editor.lineNumbers": "relative",
+    "vim.commandLineModeKeyBindingsNonRecursive": [
+
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+    {
+        "before": [
+            "<Esc>"
+        ],
+        "commands": [
+            ":nohl"
+        ],
+    }
+],
+"[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+},
+"editor.minimap.enabled": false,
+"atlascode.jira.lastCreateSiteAndProject": {
+    "siteId": "",
+    "projectKey": ""
+},
+"python.defaultInterpreterPath": "c:\\Program Files\\Blender Foundation\\Blender 4.2\\4.2\\python\\bin\\python.exe",
+"terminal.explorerKind": "external",
+"editor.fontFamily": "'0xProto Nerd Font', Consolas, 'Courier New', monospace",
+"terminal.external.windowsExec": "C:\\Users\\JamesBowcott\\AppData\\Local\\Programs\\Git\\bin\\bash.exe",
+"terminal.integrated.defaultProfile.windows": "Git Bash",
+"workbench.secondarySideBar.defaultVisibility": "hidden",
+"editor.codeLens": false,
+"workbench.colorTheme": "Vague2k",
+"[csharp]": {
+    "editor.maxTokenizationLineLength": 2500
+},
+"chat.agentsControl.enabled": false,
+"workbench.layoutControl.enabled": false,
+"workbench.navigationControl.enabled": false,
+"atlascode.rovodev.showEntitlementNotifications": false,
+"editor.acceptSuggestionOnCommitCharacter": false,
+"workbench.colorCustomizations": {
+"editorError.background": "#ff55553b",
+"editorError.foreground": "#FF5555",
+},
+"git.suggestSmartCommit": false,
+"chat.viewSessions.orientation": "stacked",
+"workbench.activityBar.location": "hidden",
+"workbench.statusBar.visible": false
+
+}
